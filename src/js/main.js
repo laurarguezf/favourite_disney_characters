@@ -24,7 +24,6 @@ const placeholderImgURL = 'https://via.placeholder.com/210x295/ffffff/555555/?te
 
 function createArticleForCharacter(oneCharacter) {
     //Función para crear el HTML de cada tarjeta de personaje
-    //const numMovies = `Appears in ${oneCharacter.films.length} movie/movies`;
     
     const html = `<article class="characters_card js_characters_card" data-id="${oneCharacter._id}">
                     <div class="card_img_container">
